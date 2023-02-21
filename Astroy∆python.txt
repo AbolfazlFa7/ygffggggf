@@ -1,0 +1,920 @@
+#multiple
+print ("Fuck" * 7)
+#..........
+
+#Variable
+A = 7
+print (A)
+
+B = 7.7
+print (B)
+
+C = True #bool
+#True   1   "text"
+#False  0   ""
+print (C)
+
+D = "Fuck this planet"
+print (D)
+#..........
+
+#len
+mom= "Kind"
+
+dad= "problem solver"
+
+print (len(mom))
+print (len(dad))
+
+# Or we can do this
+mom1 = len(mom)
+dad1 = len(dad)
+
+print (mom1)
+print (dad1)
+#..........
+
+#Character
+print("inception"[3])
+
+print ("inception"[0:6])
+
+print ("inception"[:6])
+
+print ("inception"[3:])
+
+print ("inception"[:])
+
+print ("inception"[:-1])
+
+print ("inception"[-1:])
+#.........
+
+#tuple quad
+touple = """fuck
+this
+life 
+and
+your 
+fucking
+mather"""
+print (touple)
+#.........
+
+#Escape Character
+#  \"
+#  \'
+#  \\
+#  \t   =tab
+#  \n   =enter
+#example
+print("program \" python")
+#..........
+
+#f"" or +
+first = "fuck"
+middle = " "
+last = "you"
+#∆
+all = first + middle + last
+
+print(all)
+#or
+all2 = f"{first} {last}"
+print (all2)
+#or
+print(f"{first} {last}")
+#.........
+
+#math
+print(2+2)
+print(2-6)
+print(3*3)
+print(16/4)#float
+print(16//4)#integer
+print(10**10)
+print(10%3)
+
+#or
+x=10
+x*=9
+#..........
+
+#methods
+kilo=" best gun EVER! "
+print (kilo.upper())
+print (kilo.lower())
+print (kilo.strip())
+print (kilo.find("u"))
+print (kilo.replace("f","g")
+print(kilo.title())
+print("gun" in kilo)# True
+print("gun" not in kilo)
+
+#difrent between "find" & "index"
+print (kilo.find("z"))#-1
+print (kilo.index("z"))#eror
+#..........
+
+#math number
+print (round(2.2))
+print (round(2.7))
+print (ceil(2.2))
+#for more math code search in internet
+#.........
+
+#input
+x = input("Write your age: ")
+y = input ("now tell me your phone number: )
+#int
+#float
+#bool
+#str
+k = type(x)
+print(f"Method: {k}")
+a = int(x) + int(-18)
+print (a)
+#or
+x=int(input("jack: "))
+print(type(x))
+#..........
+
+#Comparative operators
+print(10>3)
+print(10<3)
+print(3<=3)#     <•=
+print(3==2+1)#   =•=
+print(3!=4)#     !•=
+
+print("ali">"mohammed")
+print (ord("a")) #ord= word numbers
+print (ord("m"))
+#..........
+
+#Condition
+age= input("How Old Are You? ")
+age= int(age)
+print()
+if age>=25:
+    print("You are a man for your self then!")
+elif age>=18:
+    print("You are young , dont smoke")
+else:
+    print("go and do your home work you stuped basted!")
+print()
+print("system off.")
+#or
+age= input("How Old Are You? ")
+age=int(age)
+x = "young man" if age<28 else "old man"
+print(x)
+#or
+age=22
+if 18<=age<=65:
+    print("fuck yeh")
+else:
+    print("fuck no")
+#...........
+
+#Logical operators
+
+#and
+#or
+#not
+student= False
+mother= True
+father= True
+brother= False
+sister= True
+print("you get ticket"if not student and mother and father and(sister or brother) else "you dont get a fucking ticket kid")
+#..........
+
+#loop
+for x in range(5):
+    print("Fuck Me")
+    print(x)
+print()
+print(x)
+print("End")
+#and
+for x in range(1,5):#thats mean 1,2,3,4
+    print("Fuck Me")
+    print(x)
+print()
+print(x)
+print("End")
+#or 
+for x in range(0,10,3):
+    print("Fuck Me")
+    print(x+1)
+print()
+print(x)
+#or
+for x in range(3,0,-1):
+    print(x)
+#and
+b=True
+for x in range(4):
+    print(f"Attempt: {x+1}")
+    if b:
+        print("shit its working let me put my dick in yo...")
+        break
+else:
+    print("fuck! not working!")
+#and
+for x in range(5):
+    for y in range(3):
+        print(f"x={x} and y={y}")
+#..........
+
+#types
+int() #1,2,3,...
+float() #1.3,2.7,9.0,...
+bool() #True , False
+str() # "your text"
+complex() 
+#complex: range() , 
+#..........
+
+#Scrollable
+range()
+"text"
+x= [1,2,3,4,5] #lists
+#example
+for x in "Python":
+    print(x)
+#or
+for x in [1,2,3,4,5]:
+    print(x)
+#..........
+
+
+#loop
+#1
+while True:
+    print("AH")
+    print("Yes")
+    print("AHHHHHHHHHHHHHHH!")
+
+#2
+x= 100
+while x>0:
+    x//=2
+    print(x)
+
+#3
+x=""
+while x.lower()!="exit":
+    x=input(">>>")
+    if x.lower()!="exit":
+        print("dump ass")
+print("Done. sistem off, run code again")
+#4
+while True:
+    x=input(">>>")
+    if x.lower()=="exit":
+        print("Howwwwwwwwwww>!!")
+        break
+    print("oyoooo fuck yehhh, you can't turn me off asshole!")
+#..........
+
+#code
+while True:
+    for x in range(3):
+        x1=input("enter the code>>>")
+        if int(x1)==8354:
+            break
+    else:
+        print("Fuck You")
+    if int(x1)==8354:
+        break
+print("unlocked")
+#...........
+
+#Function
+#ما دو نوع فانکشن داریم :یکی انجام دهنده تسک یکیش هم ذخیره کننده تسک اولی برای فقط چاپ کردن استفده میشه، یعنی چی؟ خوب یعنی مثلا پنجاه خط کد مینویسی میگی این رو فلان جا استفاده،میتونی کلی جا ازش استفاده کنی همون تسک رو انجام بده ولی حالا دوومی که از اولی بهتره که هم میتونی مث اونم ازش استفاده کنی،،،دوومی تو میای و یک تسکی رو مینویسی اون میاد و اونو تو داده پنهانش ذخیره میکنه و اون رو هر موقع خواستی توی هر چیزی بهت بر میگردونه مثلا یه فانکشن درست میکنه ک توش نامه نوشتی و میخوای ایمیل کنی ، متنتو تو فانکشن رپیت قرار میدی بعد میری توی کد فرستادن جیمیلت این رو که توی ی متغیر ریختی رو میریزی و یا اصن از این فانکشن به عنوان داده استفاده میکنی.‌ن
+# یا به صورت کلی اولی کدایی کی توش گذاشتیمو چاپ میکنه میده ، ولی دووم چاپ نمیکنه و فقط برامون برمیگردونه
+
+#0
+def x0():
+    print(
+    """Fuck 
+    this 
+    life . shit here we go again?!!"""
+    )
+x0()
+
+#1
+def x1(y):
+    print(y ** 2)
+    print("DONE")
+x1(8)
+
+#2
+def x2(y):
+    return y-100
+num=x2(70)
+print(num)
+
+#3
+def x3(a,b):
+    print(f"{a} + {b}")
+x3("Abolfazl","Fallahkar")
+#or
+x3("Abolfazl","Fallahkar")
+#or
+x3(a="Abolfazl",b="Fallahkar")
+#and
+def x3(x,a,b):
+    return a*x+b
+print("y=2x+4")
+all=x3(5,7,10)
+print(f"y={all}")
+#or
+def x3(x,a,b=11):
+    return a*x+b
+all=x3(a=5,x=7)
+print(f"y={all}")
+
+#4
+def x(*y):
+    all=1
+    for number in y:
+        all*=number
+    return all
+print(x(4,7,9,3,28))
+
+#5
+def x(*y):
+    all=1
+    for number in y:
+        all*=number
+    return all
+    
+a=input("Please write a number you wanna multiply that: ")
+a=int(a)
+b=input("Please write a number you wanna multiply that: ")
+b=int(b)
+c=input("Please write a number you wanna multiply that: ")
+c=int(c)
+d=input("Please write a number you wanna 			multiply that: ")
+d=int(d)
+e=input("Please write a number you wanna 			multiply that: ")
+e=int(e)
+f=input("Please write a number you wanna 			multiply that: ")
+f=int(f)
+print(x(a,b,c,d,e,f))
+
+#then we have
+def x(*y)
+
+#6
+def x(**y):
+    print(y)
+    print(y["name"],y["age"])
+x(name="Abolfazl",age=16,favorit_number=7)
+#or another code
+def x(**y):
+    name=y["name"]
+    age=y["age"]
+    phone=y["phone"]
+    return f"name = {name}\nage = {age}\nphone = +98{phone}"
+a=input("What is your name? ")
+b=input("How old are you? ")
+b=int(b)
+c=input("Write your phone number. ")
+c=int(c)
+print()
+print(x(name=a,age=b,phone=c))
+
+#7
+message=1
+def x(*name):
+    global message
+    message=2
+print(message)
+x(7)
+print(message)
+print(message)
+#..........
+
+#list
+x=[1,2,3,4,5]
+
+y=["hello","bitch"]
+
+all=x+y
+
+all0=["fuck"]*5
+
+b=["sun","moon","glass","window","life"]
+print(b[3])
+print(b[-1])
+
+n=[[0,1],[2,3]]
+
+#or
+#scrollbar
+k=list(range(20))
+l=list("hello world")
+print(len(l))
+
+#0
+x=[1,2,3,4,5,6,7]
+print(x)
+print(x[:6])
+print(x[:6:2])
+print(x[::-1])
+print(x[::-2])
+x[:]=100,200,300,400,500,600,700
+print(x)
+
+#1
+num=[1,2,3]
+x=num[0]
+y=num[1]
+p=num[2]
+print(x,y,p)
+
+#or
+num=[1,2,3,4,5]
+a,b,c,d,e=num #must be equal
+a,b,*c=num
+a,*b,c=num
+
+#2
+x=["a","b","c"]
+for i in enumerate(x):
+    print(i[0],i[1])# 0 and 1 mean list
+#or
+for index,i in enumerate(x):
+    print(index,i)#or
+    print(i)
+    print(index)
+
+#3
+x=["a","b","c","d","e"]
+#add
+x.append("f")#add the end
+
+x.insert(0,"f")#every where you wanna add
+x.insert(4,"f")
+
+#remove
+x.pop()#remove every where you wanna remove ,in pop remove method the data it removed can be saved in a Variable
+result= x.pop() #result=="e"
+x.pop(3)#result=="d"
+
+x.remove("b")#if there is no b will eror be
+if "z" in x:
+    x.remove("z")
+
+del x[0:3]
+del x[:-1]
+
+x.clear()#remove all of the list
+
+#4
+x=["a","b","c","d","e"]
+print(x.index("d")) #must be if not, Eror
+
+print(x.count("d"))#how many "d" in x ??
+
+#5
+x=[18,29,7,90,65]
+x.sort()
+print(x)
+#or
+x=[7,8,5,4,6]
+print(sorted(x))
+x0=["7","8","5","4","6"]
+print(sorted(x0))
+
+x.sort(reverse=True)
+
+#6
+x=[
+    ("Your",7),
+    ("I",2),
+    ("Pussy",9),
+    ("Love",4)
+    ]
+
+def siteme(jj):
+    return jj[1]
+
+x.sort(key=siteme)
+
+print(x)
+#or #lambda function
+x=[
+    ("Your",7),
+    ("I",2),
+    ("Pussy",9),
+    ("Love",4)
+    ]
+
+x.sort(key=lambda jj: jj[1])
+
+print(x)
+
+#7
+x=[
+    ("Your",7),
+    ("I",2),
+    ("Pussy",9),
+    ("Love",4)
+    ]
+y=[]
+for item in x:
+    y.append(item[1])
+print(y)
+#or
+x=[
+    ("Your",7),
+    ("I",2),
+    ("Pussy",9),
+    ("Love",4)
+    ]
+    
+y= map(lambda y:y[1],x)
+#map is somthing for transfor a itterbell to a ampty "iterbell"not list! just to itterbell is use first a function(def) and then an itterbell like this: map(#def,#itterbell) then you can see that by "for" command or list() or etc...
+
+for h in y:
+	print(h)
+
+y=list(map(lambda y:y[1],x))
+#* map is a itterbell like range becose of that can be in list
+
+#8 filter list are like map
+x=[
+    ("Your",7),
+    ("I",2),
+    ("Pussy",9),
+    ("Love",4)
+    ]
+y=list(filter(lambda i: i[1]>=7,x))
+print(y)
+#or for map and filter we can do this
+x=[
+    ("Your",7),
+    ("I",2),
+    ("Pussy",9),
+    ("Love",4)
+    ]
+y=[item[1] for item in x]
+#&
+b=[item for item in x if item[1]>=7]
+print(y)
+print(b)
+
+#9 Stack
+l=[]
+l.append(1)
+l.append(2)
+l.append(3)
+l.append(4)
+print(l)
+l.pop()
+l.pop()
+l.pop()
+l.pop()
+if not l:
+    print("fuck Shahram")
+#its just like back in chrome, first floor is lower and last floor is upper then all
+#queue : reverse stack
+
+from collections import deque
+#deque: its just about optimize the code and time the compailer end this, becose python when you delete like pop(1) a large list its must rename all index to back by 1 but, whit deque not and have an extra command by name popleft().
+
+x=deque([])
+x.append(1)
+x.append(2)
+x.append(3)
+print()
+print(x)
+print()
+x.popleft()
+print(x)
+
+#10 tuple
+x=(1,2)
+#or
+x=1,2
+
+x=(1)
+#or
+x=1,
+
+x=tuple("Fuck")#it is like "list function"
+
+x=(1,2)+(3,4)
+x=(1,2)*3
+
+#you can't
+x=(1,2)
+x[0]=1
+#or
+x=(1,2)
+x.append(3)#or pop remove insert ...
+
+# you can't do no changes in tuple , you can used for some code ,when you can used?it is for some time you dont wanna changed for acsidantly.
+
+#11 zip
+x=[1,2,3,4]
+
+y = [6,5,4,3]
+
+print(list(zip(x,y,"fuck")))
+
+# if not be equal words after thet len number not shown!
+print(list(zip(x,y,"fuckkshshs_sg")))
+
+#zip is a itterbale
+#...........
+
+#swap varible
+x=10
+y=20
+x,y=y,x
+#...........
+
+#array
+from array import array #for importing array
+x= array(#typecode , #list)
+
+#array is an optimizer for large lists tht can be loaded sooner and just in #typecode you must search and find the typecode in internet its like for integer you must write in #typecode:"i" and etc...
+  and remember that just in your list can be one type [in #typecode]
+
+#...........
+
+#set
+x=[1,1,2,3,4]
+
+a=set(x)
+b={1,5}
+
+print(a | b) # اجتماع  
+print(a & b) # اشتراک  
+print(a - b) # اختلاف  
+print(a ^ b) # چیزایی که تو مجموعه اول یا دوم وجود داره ولی تو هردوتاشون وجود نداره
+
+#set has no thus and  you can't:
+b[0]=5
+#............
+
+#dictionary
+#dictionary= key and value ,and you write enyting in value  list , tuple...
+x={3:"alt","y":7}
+#or
+x=dict(x="alt",y=7)
+print(x["y"])
+
+x["y"]=878#change
+x["z"]=20#add
+
+print(x["p"])#eror
+print(x.get("x"))
+print(x.get("p"))#NOUN
+print(x.get("p","not here"))
+
+del x["z"]
+
+#1
+x=dict(x="alt",y=7)
+
+
+for item in x:
+    print(item, x[item])
+
+#or
+for key,value in x.items():
+    print(key, value)
+
+#2 
+choes={x+1:x**2 for x in range(9)}
+#..........
+
+#genarator
+#for optimizing and less memory
+from sys import getsizeof #thats just show bytes
+
+y=(x**2 for x in range(1000000))
+#in "()" is genarator. but "[] or {}"are not
+	
+print(getsizeof(y))
+#size file n up here with genarator is 112 but without of genratour is 8889979 !!!!
+#...........
+
+#unpacking
+x=[1,2,3,4]
+print(*x)
+
+x=list(range(9))
+#=
+x=[*range(9)]
+
+x=[2,7,7,4]
+y=[67,42,89,00]
+n=[*x,*y]
+#or
+print(*x,*y)
+
+x=[*"hello"]
+
+#1
+x={"a":2,"b":4}
+y={"c"=60,"b":80}
+
+
+# "*" is too powerful and can used for all of them and it is just unpack everyting you gived too.
+#...........
+
+#exception
+try:
+    x=int(input("Age>>> "))
+except ValueError:
+    print("fuck you")
+    
+#1
+try:
+    x=int(input("Age>>> "))
+except ValueError as y:
+    print(y)
+    print("fuck you")
+    print(type(y))
+else:
+    print ("ok thats right")
+    
+#2
+try:
+    x=int(input("Age>>> "))
+    x=10/x
+except ValueError as y:
+    print(y)
+    print("fuck you")
+    print(type(y))
+except ZeroDivisionError as y:
+    print(y)
+    print("fuck you")
+    print(type(y))
+else:
+    print ("ok thats right")
+#or
+try:
+    x=int(input("Age>>> "))
+    x=10/x
+except (ValueError,ZeroDivisionError) as y:
+    print(y)
+    print("fuck you")
+    print(type(y))
+else:
+    print ("ok thats right")
+#3
+try: 
+# when we open a file we MUST closed in the end
+    o=open("test.py")
+    x=int(input("Age>>> "))
+    x=10/x
+except (ValueError,ZeroDivisionError) as y:
+    print(y)
+    print("fuck you")
+    print(type(y))
+else:
+    print ("ok thats right")
+
+finally:
+    print ("i close the file")
+    o.close()
+    
+#or #important
+
+try:
+    with open("test.py") as o:
+        o.__exit__()
+        o.__enter__()
+    x=int(input("Age>>> "))
+    x=10/x
+    #/////
+#and
+try:
+    with open("test.py") as o,open("test2") as p:
+        o.__exit__()
+        o.__enter__()
+    x=int(input("Age>>> "))
+    x=10/x
+    #/////
+#you learn about "with" more in down
+
+#4
+def x(age):
+    if age<=0:
+        raise ValueError("Im Error in the ecxcption")
+try:
+    x(-1)
+    
+except ValueError as k:
+    print(k)
+#5
+from timeit import timeit
+
+time="""
+def x(age):
+    if age<=0:
+        raise ValueError("Im Error in the ecxcption")
+try:
+    x(-1)
+    
+except ValueError as k:
+    pass
+"""
+time2="""
+def x(age):
+    if age<=0:
+        return None
+    return 10/age
+
+vv=x(-1)
+if vv==None:
+    pass
+    #print(You must write highr number! )
+"""
+cod1=print("code1",timeit(time,number=700000))
+cod2=print("code2",timeit(time2,number=700000))
+#6 pass
+if 0<1:
+    pass
+
+if 0<1:
+    #Error
+
+
+#7             Error Names:
+
+BaseException
+ +-- SystemExit
+ +-- KeyboardInterrupt
+ +-- GeneratorExit
+ +-- Exception
+      +-- StopIteration
+      +-- StopAsyncIteration
+      +-- ArithmeticError
+      |    +-- FloatingPointError
+      |    +-- OverflowError
+      |    +-- ZeroDivisionError
+      +-- AssertionError
+      +-- AttributeError
+      +-- BufferError
+      +-- EOFError
+      +-- ImportError
+      |    +-- ModuleNotFoundError
+      +-- LookupError
+      |    +-- IndexError
+      |    +-- KeyError
+      +-- MemoryError
+      +-- NameError
+      |    +-- UnboundLocalError
+      +-- OSError
+      |    +-- BlockingIOError
+      |    +-- ChildProcessError
+      |    +-- ConnectionError
+      |    |    +-- BrokenPipeError
+      |    |    +-- ConnectionAbortedError
+      |    |    +-- ConnectionRefusedError
+      |    |    +-- ConnectionResetError
+      |    +-- FileExistsError
+      |    +-- FileNotFoundError
+      |    +-- InterruptedError
+      |    +-- IsADirectoryError
+      |    +-- NotADirectoryError
+      |    +-- PermissionError
+      |    +-- ProcessLookupError
+      |    +-- TimeoutError
+      +-- ReferenceError
+      +-- RuntimeError
+      |    +-- NotImplementedError
+      |    +-- RecursionError
+      +-- SyntaxError
+      |    +-- IndentationError
+      |         +-- TabError
+      +-- SystemError
+      +-- TypeError
+      +-- ValueError
+      |    +-- UnicodeError
+      |         +-- UnicodeDecodeError
+      |         +-- UnicodeEncodeError
+      |         +-- UnicodeTranslateError
+      +-- Warning
+           +-- DeprecationWarning
+           +-- PendingDeprecationWarning
+           +-- RuntimeWarning
+           +-- SyntaxWarning
+           +-- UserWarning
+           +-- FutureWarning
+           +-- ImportWarning
+           +-- UnicodeWarning
+           +-- BytesWarning
+           +-- EncodingWarning
+           +-- ResourceWarning
+#.............
+
